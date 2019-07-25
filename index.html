@@ -13,18 +13,49 @@
 
     <!-- 網站標題 - 瀏覽器標籤 -->
     <title>Document</title>
+
+     <!-- CSS 區塊 - 內部樣式 -->
     <style>
         #box{
-            background-color:rgba(0,0,0,0.1);
+            background-color:rgba(0,0,0,0.3);
             height:500px;
         }
-            </style>
+    </style>
 </head>
 
 <!-- 身體 - 網頁內容 -->
 <body>
     <div id="box">
+         
+        <!-- 導覽列元素 - 放 LOGO、分頁連結 - 有語意 提升 SEO -->
+        <nav>
+            <a href="index.html">LOGO標題</a>
+            <div>
+                <a href="#">關於我</a>
+                <a href="#">照片</a>
+                <a href="#">連絡我們</a>
+            </div>
+        </nav>
 
+        <!-- 內容區塊元素 - 標題、內文或按鈕等...  - 有語意  -->
+        <section>
+            <h1>我們是ARONG甜點店<h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsum perspiciatis modi. Magni quas officia laudantium consequuntur quibusdam dolorum, fugit delectus alias provident doloribus corporis voluptatibus, ex deserunt at excepturi.</p>>
+                <a href="#">前往購買</a>
+        </section>
+
+        <!-- 圖片按扭區塊 -->
+        <section>
+            <!-- (a[href="#"]>img)*3 -->
+            <a href="#"><img src="people.png" alt="關於我"></a>
+            <a href="#"><img src="story.png" alt="故事"></a>
+            <a href="#"><img src="chat.png" alt="聯絡我"></a>   
+        </section>
+
+        <!-- 頁尾 -->
+        <footer>
+            ARong 甜點店 &copy;2019
+        </footer>
 
     </div>
 </body>
