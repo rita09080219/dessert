@@ -1,0 +1,24 @@
+body{
+    /* 高度 h100p */
+    height: 100%;
+    /* 背景圖片 bgi */
+    background: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80");
+    /*背景大小 bgz */
+    background-size: 150%; 
+}
+
+/* 所有元素 */
+*{
+    /* 邊框-bd */
+    border: 0.5px solidr rgba(255,0,0,0.3);
+    /* 字型-ff */
+    font-family:微軟正黑體;
+    /* 字體顏色-c#xxx */
+    color:#ffff;
+
+}
+
+/* 盒子區塊 */
+#box{
+    background-color:rgba(0,0,0,0.3);
+    height:500px;}
